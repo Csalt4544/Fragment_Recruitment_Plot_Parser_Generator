@@ -16,7 +16,7 @@ file_name_title = re.split(r"\.", file_name_raw)
 file_name = file_name_title[0].replace("_", " ")
 
 # if the file is in .sop format, if/else used to determine whether line is an alignment
-# parsing method from .410.634 used by stripping and splitting lines based on tab-delimited spacing
+# parsing method by stripping and splitting lines based on tab-delimited spacing
 # regex is used to obtain information on position and percent identity provided in .sop file
 # banded conditionals for position and percent identity used to prevent too much plotting in matplotlib
 # these conditionals are based on the x-axis dimensions of the plot
