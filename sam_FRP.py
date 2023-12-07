@@ -13,7 +13,7 @@ import sys
 file_name = sys.argv[1]
 
 # if the file is in .sam format, if/else used to determine whether line is an alignment
-# parsing method from .410.634 used by stripping and splitting lines based on tab-delimited spacing
+# parsing method by stripping and splitting lines based on tab-delimited spacing
 # CIGAR value for total matches and position obtained from initial splitting of alignment
 # MD line is split further to obtain only number values that can be used as integers for sum
 # commented-out print statement to stdout to test values obtained
